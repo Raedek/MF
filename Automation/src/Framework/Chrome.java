@@ -318,7 +318,7 @@ public class Chrome
 		} catch (NoSuchElementException e) {
 			e.printStackTrace();
 			System.out.println("Button not found");
-			gFunc.Report(gVars.testRun, gVars.STEP3, "Failed", true);
+			gFunc.Report(gVars.testRun, gVars.STEP4, "Failed", true);
 			return;
 		}
 		
@@ -330,7 +330,7 @@ public class Chrome
 		} catch (NoSuchElementException e) {
 			e.printStackTrace();
 			System.out.println("Button not found");
-			gFunc.Report(gVars.testRun, gVars.STEP3, "Failed", true);
+			gFunc.Report(gVars.testRun, gVars.STEP5, "Failed", true);
 			return;
 		}
 		
