@@ -1,0 +1,25 @@
+Title:
+Sign-In functions(buttons) unavailable
+
+Description:
+When user signs in "Itinerary" and "Profile" buttons are available, but switching to any page accessible without signed user results in disappearence of those buttons. Switching back to "Flights" re-enables the buttons again.
+
+Actual behaviour:
+Sign-In functions are unavailable on all pages with exception of "mercuryreservation.php", "mercuryitinerary.php" and "mercuryprofile.php"
+
+Expected behaviour:
+Sign-In functions should be available on all pages when user is signed in.
+
+Repro:
+1 - Open browser with http://newtours.demoaut.com/ webpage
+2 - Sign in using existing user
+3 - "Flight Finder" page opens, "Itinerary" and "Profile" buttons are available
+4 - Click on "Home" button
+5 - "Itinerary" and "Profile" buttons are unavailable and "Register" button appears
+6 - Click on "Flights" button
+7 - "Itinerary" and "Profile" buttons are available
+
+ReproRate:
+100%
+
+Note:
