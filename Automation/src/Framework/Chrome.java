@@ -310,6 +310,7 @@ public class Chrome
 			return;
 		}
 		
+		gFunc.Report(gVars.testRun, gVars.STEP3, "Successfull", false);
 		gVars.driver.findElement(By.name("reserveFlights")).click();
 		
 
@@ -322,6 +323,7 @@ public class Chrome
 			return;
 		}
 		
+		gFunc.Report(gVars.testRun, gVars.STEP4, "Successfull", false);
 		gVars.driver.findElement(By.name("buyFlights")).click();
 		
 
@@ -334,6 +336,7 @@ public class Chrome
 			return;
 		}
 		
+		gFunc.Report(gVars.testRun, gVars.STEP5, "Successfull", false);
 		System.out.println("Booking finished");
 	}
 	
