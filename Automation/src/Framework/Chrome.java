@@ -336,7 +336,7 @@ public class Chrome
 			return;
 		}
 		
-		gFunc.Report(gVars.testRun, gVars.STEP5, "Successfull", false);
+		gFunc.Report(gVars.testRun, gVars.STEP5, "Successfull", true);
 		System.out.println("Booking finished");
 	}
 	
